@@ -332,6 +332,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _monsterCountText: {fileID: 1818433872}
   _timerText: {fileID: 1777576114}
+--- !u!1 &961315844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961315846}
+  - component: {fileID: 961315845}
+  m_Layer: 0
+  m_Name: RoundsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &961315845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961315844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0135400d4900db4f81d3e08b3901072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _monsterSpawner: {fileID: 1815703603}
+  _mainView: {fileID: 659545814}
+--- !u!4 &961315846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961315844}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.64, y: -2.73, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1071613564
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,5 +914,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 1815703604}
+  - {fileID: 961315846}
   - {fileID: 659545813}
   - {fileID: 1489069510}
